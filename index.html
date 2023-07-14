@@ -23,37 +23,73 @@
         <!-- right column -->
         <div class="">
 
-                <!-- num -->
-                <p class="text-xs text-[#9cacc7] font-montserrat">4/4</p>
+            <!-- num -->
+            <p class="text-xs text-[#9cacc7] font-montserrat">4/4</p>
 
-                <!-- title -->
+            <!-- title -->
+            <div class="flex flex-col">
+                <h1 class="font-medium text-lg">Last step!</h1>
+                <p class="text-xs text-[#4c6386]">Enter your payment into info below.</p>
+            </div>
+
+            <!-- card selection -->
+            <div class="flex ">
+                <!-- credit card -->
+
+                <div class="">
+
+                    <!-- svg -->
+
+                    <!-- p tag name  -->
+
+                    <!-- selection button -->
+
+                </div>
+
+                <!-- paypal -->
+            </div>
+
+            <!-- card number section -->
+            <div class="flex flex-col">
+                <p class="text-xs font-light">Card Number</p>
+                <input
+                    class="placeholder:text-[#a5abb1] placeholder:text-sm flex items-center px-4 py-2 w-full border border-[#f0f2f4]"
+                    type="number" placeholder="123 4567 8912 3456">
+            </div>
+
+            <!-- Expiration date section -->
+            <div class="flex flex-col">
+
+                <!-- expiration date  -->
                 <div class="flex flex-col">
-                    <h1 class="font-medium text-lg">Last step!</h1>
-                    <p class="text-xs text-[#4c6386]">Enter your payment into info below.</p>
+                    <p class="text-xs font-light">Expiration Date</p>
+
+                    <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select
+                        an option</label>
+                    <select id="countries"
+                        class=" block w-auto p-2.5">
+                        <option selected>Month</option>
+                        <option value="JA">January</option>
+                        <option value="FE">February</option>
+                        <option value="MA">March</option>
+                        <option value="AP">April</option>
+                        <option value="MAY">May</option>
+                        <option value="JUN">June</option>
+                        <option value="JULY">July</option>
+                        <option value="AU">Auguest</option>
+                        <option value="SE">September</option>
+                        <option value="OC">October</option>
+                        <option value="NO">November</option>
+                        <option value="DE">December</option>
+                    </select>
+
                 </div>
 
-                <!-- card selection -->
-                <div class="flex ">
-                    <!-- credit card -->
-
-                    <div class="">
-
-                        <!-- svg -->
-
-                        <!-- p tag name  -->
-
-                        <!-- selection button -->
-                        
-                    </div>
-
-                    <!-- paypal -->
-                </div>
-
-                <!-- card number section -->
+                <!-- cvc section -->
                 <div class="flex flex-col">
-                    <p class="text-xs font-light">Card Number</p>
-                    <input class="placeholder:text-[#a5abb1] placeholder:text-sm flex items-center px-4 py-2 w-full border border-[#f0f2f4]" type="number" placeholder="123 4567 8912 3456">
+                    <p class="text-xs font-light">CVC</p>
                 </div>
+            </div>
         </div>
 
     </div>
